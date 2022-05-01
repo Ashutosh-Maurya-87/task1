@@ -1,0 +1,58 @@
+@media only screen and (min-width: 578px) {
+  .left_Col {
+    background: #090d1f;
+    /* position: absolute; */
+    width: 609px;
+    height: 100vh;
+    left: 1px;
+    top: 0px;
+  }
+  .text-color {
+    color: white;
+  }
+  .right-side_upr {
+    /* position: absolute; */
+    width: 831.5px;
+    height: 10vh;
+    left: 608px;
+    top: 0px;
+
+    /* background: rgba(193, 231, 239, 0.81); */
+    /* box-shadow: inset 13px -3px 27px; */
+  }
+  .image {
+    padding-left: 7vh;
+    height: 41vh;
+    width: 100%;
+  }
+  .iconClass {
+    position: absolute;
+    width: 14vh;
+    height: 15vh;
+    left: 41vh;
+    top: 14vh;
+  }
+  .text-align {
+    position: absolute;
+    font-size: 28px;
+    /* \ width: 14vh; */
+    /* height: 15vh; */
+    left: 28vh;
+    top: 36vh;
+  }
+  .text {
+    margin-left: 40px;
+  }
+  .bottom-text {
+    position: absolute;
+    left: 31vh;
+    top: 45vh;
+  }
+  .maskIcon {
+    position: absolute;
+    width: 60vh;
+    height: 37vh;
+    left: 20vh;
+    top: 61vh;
+  }
+}
