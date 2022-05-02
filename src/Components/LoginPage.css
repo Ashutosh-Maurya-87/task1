@@ -1,30 +1,65 @@
+html {
+  font-size: 62.5%;
+}
+.camicon {
+  width: 13rem;
+  height: 13rem;
+}
+@media only screen and (min-width: 0px) and (max-width: 578px) {
+  .camicon {
+    position: absolute;
+    top: 10rem;
+    left: 6rem;
+    width: 13rem;
+    height: 13rem;
+  }
+  .text-align {
+    position: absolute;
+    font-size: 3.5rem;
+    left: 15rem;
+    right: 20rem;
+    top: 22rem;
+  }
+}
 @media only screen and (min-width: 578px) {
-  .left_Col {
-    background: #090d1f;
-    /* position: absolute; */
-    width: 609px;
-    height: 100vh;
-    left: 1px;
-    top: 0px;
+  .camicon {
+    position: absolute;
+    top: 10rem;
+    left: 23rem;
+    width: 13rem;
+    height: 13rem;
   }
-  .text-color {
-    color: white;
+  .text-align {
+    position: absolute;
+    font-size: 3.5rem;
+    left: 15rem;
+    right: 20rem;
+    top: 22rem;
   }
-  .right-side_upr {
-    /* position: absolute; */
-    width: 831.5px;
-    height: 10vh;
-    left: 608px;
-    top: 0px;
+}
 
-    /* background: rgba(193, 231, 239, 0.81); */
-    /* box-shadow: inset 13px -3px 27px; */
-  }
-  .image {
-    padding-left: 7vh;
-    height: 41vh;
-    width: 100%;
-  }
+.left_Col {
+  background: #090d1f;
+  /* position: absolute; */
+  width: 60.9rem;
+  height: 100vh;
+  left: 0.1rem;
+  top: 0rem;
+}
+.text-color {
+  color: white;
+}
+.right-side_upr {
+  /* position: absolute; */
+  width: 83.15rem;
+  height: 10vh;
+  left: 60.8rem;
+  top: 0rem;
+
+  /* background: rgba(193, 231, 239, 0.81); */
+  /* box-shadow: inset 13px -3px 27px; */
+}
+/* @media only screen and (max-width: 578) {
   .iconClass {
     position: absolute;
     width: 14vh;
@@ -32,27 +67,82 @@
     left: 41vh;
     top: 14vh;
   }
-  .text-align {
-    position: absolute;
-    font-size: 28px;
-    /* \ width: 14vh; */
-    /* height: 15vh; */
-    left: 28vh;
-    top: 36vh;
-  }
-  .text {
-    margin-left: 40px;
-  }
-  .bottom-text {
-    position: absolute;
-    left: 31vh;
-    top: 45vh;
-  }
-  .maskIcon {
-    position: absolute;
-    width: 60vh;
-    height: 37vh;
-    left: 20vh;
-    top: 61vh;
-  }
+} */
+.image {
+  padding-left: 7vh;
+  height: 35vh;
+  width: 100%;
+}
+.iconClass {
+  position: absolute;
+  width: 14vh;
+  height: 15vh;
+  left: 41vh;
+  top: 14vh;
+}
+.text {
+  margin-left: 4rem;
+}
+.bottom-text {
+  position: absolute;
+  font-size: 2rem;
+  left: 17.7rem;
+  top: 28rem;
+}
+.maskIcon {
+  position: absolute;
+  width: 60vh;
+  height: 37vh;
+  left: 20vh;
+  top: 61vh;
+}
+.btn {
+  width: 50%;
+  background-color: rgba(12, 27, 41, 1);
+}
+.btn-primary {
+  color: #fff;
+  background-color: rgba(12, 27, 41, 1) !important;
+  border-color: rgba(12, 27, 41, 1) !important;
+}
+.loginForm {
+  margin-left: 10%;
+}
+.forgotPass {
+  margin-left: 12rem;
+  font-size: 1.5rem;
+}
+.loginText {
+  /* position: absolute; */
+  width: 13.4rem;
+  height: 9.962rem;
+  left: 76rem;
+  top: 30.8rem;
+}
+.loginImageClass {
+  width: 13%;
+}
+form input[type="email"],
+form input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.submit-btn {
+  box-sizing: border-box;
+  display: block;
+  padding: 0.9rem !important;
+  font-weight: 700 !important;
+  border: none;
+  font-size: 1.5rem !important;
+}
+.lable {
+  font-size: 2rem;
+}
+.form-check-input {
+  margin-top: 0.7rem !important;
+}
+.form-check-label {
+  font-size: 1.5rem !important;
 }
