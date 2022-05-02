@@ -20,6 +20,12 @@ html {
     right: 20rem;
     top: 22rem;
   }
+  .maskgroup {
+    position: absolute;
+    width: 21rem;
+    left: 0;
+    top: 85rem;
+  }
 }
 @media only screen and (min-width: 578px) {
   .camicon {
@@ -35,6 +41,12 @@ html {
     left: 15rem;
     right: 20rem;
     top: 22rem;
+  }
+  .maskgroup {
+    position: absolute;
+    width: 30rem;
+    left: 15rem;
+    top: 38rem;
   }
 }
 
@@ -89,13 +101,12 @@ html {
   left: 17.7rem;
   top: 28rem;
 }
-.maskIcon {
+/* .maskgroup {
   position: absolute;
-  width: 60vh;
-  height: 37vh;
-  left: 20vh;
-  top: 61vh;
-}
+  width: 35rem;
+  left: 13rem;
+  top: 38rem;
+} */
 .btn {
   width: 50%;
   background-color: rgba(12, 27, 41, 1);

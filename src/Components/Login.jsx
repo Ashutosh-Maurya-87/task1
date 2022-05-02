@@ -47,7 +47,17 @@ const Login = () => {
                   <p className="text"> for your next Project </p>
                 </p>
                 <div>
-                  <img src={maskGroup} className="maskIcon" />
+                  <Figure>
+                    <Figure.Image
+                      width={140}
+                      height={139}
+                      src={maskGroup}
+                      className="maskgroup"
+                    />
+                    {/* <Figure.Caption>
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </Figure.Caption> */}
+                  </Figure>
                 </div>
               </div>
             </Col>
